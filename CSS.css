@@ -1,0 +1,242 @@
+/** Format for classes HtmlPageElement
+**/
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    color:white;
+}
+
+* body {
+  background-image:url("IMG/City_Background2.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+*  nav.NavigatorNav {
+    float: right;
+    margin: 30px;
+    border: solid white;
+    text-align:center;
+    background: rgb(8,15,33, 0.9);
+    text-decoration: none;
+}
+
+*  figure.NavigatorFigure {
+    float: left;
+    margin: 8px;
+    padding:5px;
+    border: thick solid white;
+    width:10%;
+    border-radius: 15px;
+    background:white;
+}
+
+*  figure.NavigatorFigure img {
+    width:100%;
+}
+
+*  nav.NavigatorNav ul.NavigatorUl p.NavigatorP{
+    font-size: 20px;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    text-decoration: none;
+    display:inline-block;
+    margin:6px;
+}
+
+
+*  nav.NavigatorNav ul.NavigatorUl p.NavigatorP{
+
+}
+
+*  nav.NavigatorNav ul.NavigatorUl p.NavigatorP a.NavigatorA{
+    text-decoration: none;
+}
+
+* * div.BodyDiv {
+    width: 80%;
+    background:rgb(8,15,33, 0.9);
+    padding-bottom: 100px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-left:90px;
+    margin-top: 30px;
+    border-radius:12px;
+    border: solid white;
+    float:left;
+}
+
+html.Test body.TestBody div.BodyDiv table {
+    border: 1px solid black;
+    background:rgb(233, 206, 17, 0.5);
+    border-collapse: collapse;
+    margin: 5em;
+}
+
+/*________________________________________________________________________________________*/
+
+html.Test body.TestBody div.BodyDiv th {
+    border: 1px solid black;
+    padding: 5px;
+    background:rgb(212, 213, 17, 0.75);
+    text-align: center;
+    height: 50px;
+
+}
+
+/*________________________________________________________________________________________*/
+
+html.Test body.TestBody div.BodyDiv td {
+    border: 1px solid black;
+    padding: 5px;
+    background:rgb(233, 206, 17, 0.5);
+    text-align: center;
+    width:75px;
+}
+
+/*________________________________________________________________________________________*/
+
+html.Test body.TestBody div.BodyDiv tr {
+    border: 1px solid black;
+    padding: 5px;
+    background:rgb(233, 206, 17, 0.5);
+    text-align: center;
+    width:75px;
+
+}
+
+
+/*________________________________________________________________________________________*/
+
+/* Test Detail*/
+
+html.test-detail body div.bodydiv div.detaildivsection1 {
+    width: 50%;
+    float:left;
+    height: 900px;
+}
+
+html.test-detail body div.bodydiv div.detaildivsection1 h1 {
+    font-family: impact;
+    border: solid white;
+    margin-bottom:15px;
+    margin-left:2%;
+    margin-right:2%;
+    padding: 8px;
+    text-align: center;
+    border-radius:12px;
+}
+
+html.test-detail body div.bodydiv div.detaildivsection1 img.imgresturantpic {
+    width: 96%;
+    margin-left:2%;
+    margin-right:2%;
+    border: solid white;
+    border-radius:12px;
+    margin-top:25px;
+}
+
+html.test-detail body div.bodydiv div.detaildivsection1 div {
+    width: 100%;
+}
+
+html.test-detail body div.bodydiv div.detaildivsection1 div ul {
+    display:inline-flex;
+}
+
+html.test-detail body div.bodydiv div.detaildivsection1 div ul div  {
+    width: 29.33333%;
+    margin-top:60px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 10px;
+    border: solid white;
+    border-radius: 5px;
+}
+
+html.test-detail body div.bodydiv div.detaildivsection1 div ul div img.imgdetailindicators {
+    width: 100%;
+    float: left;
+}
+
+html.test-detail body div.bodydiv div.detaildivsection2 {
+  width:40%;
+  float:right;
+  border: solid white;
+  margin: 1.5%;
+  padding:1.5%;
+  border-radius:12px;
+  height: 900px;
+
+}
+
+html.test-detail body div.bodydiv div.detaildivsection3 {
+  width:92%;
+  float:left;
+  margin: 1.5%;
+  padding:1.5%;
+
+}
+
+html.test-detail body div.bodydiv div.detaildivsection3 div {
+  width:26%;
+  float:left;
+  border: solid white;
+  margin: 1.5%;
+  padding:1.5%;
+  border-radius:12px;
+  height: 350px;
+
+}
+
+html.test-detail body div.bodydiv div.detaildivsection3 div div.detaildivsection3dub {
+  width:94%;
+  float:left;
+  border: solid white;
+  margin: 1.5%;
+  padding:1.5%;
+  border-radius:12px;
+  height: 150px;
+  text-align: center;
+
+}
+
+html.test-detail body div.bodydiv div.detaildivsection3 div div.detaildivsection3dub p {
+  padding-top: 40px;
+  font-size: 30px;
+
+}
+
+html.test-detail body div.bodydiv div.detaildivsection3 div h2 {
+text-align: center;
+font-size: 30px;
+
+}
+
+html.test-detail body div.bodydiv div.detaildivsection3 div table, th, tr, td {
+padding: 5px;
+font-size: 20px;
+border: 1px solid white;
+border-collapse:collapse;
+text-align: center;
+width:100%;
+
+}
+
+html.test-detail body div.bodydiv div.detaildivsection3 div p {
+  padding-top: 40px;
+  font-size: 30px;
+
+}
